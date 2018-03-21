@@ -6,7 +6,7 @@
   "version": "1.0",
 
   "browser_action": {
-   "default_icon": "focus_icon.png",
+   "default_icon": "images/focus_icon.png",
    "default_popup": "popup.html"
   },
   "permissions" : ["management"],

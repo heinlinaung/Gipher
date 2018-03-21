@@ -9,5 +9,5 @@ fetch('https://api.giphy.com/v1/gifs/random?api_key=RzhJZxufesXDEQ5feRw92UZruYYA
     source_img.src = myJson.data.images.original.webp;
   })
   .catch(err=>{
-    source_img.src = '404.gif'
+    source_img.src = '../resources/images/404.gif'
   })
